@@ -48,7 +48,7 @@ const JobApplay = () => {
 
     return (
         <div className='justify-center'>
-            <h3 className='text-4xl'>Applay for jobs: <Link to={`/Job/${jobId}`}>Details</Link></h3>
+            <h3 className='text-4xl text-blue-700 text-center'>Applay for jobs: <Link to={`/Job/${jobId}`}>Details</Link></h3>
           <form onSubmit={handleApplay}>
               <fieldset className="fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4">
 
